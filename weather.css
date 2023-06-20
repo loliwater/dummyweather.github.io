@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+
+}
+
+body{
+  background: rgb(10,0,161);
+  background: linear-gradient(90deg, rgba(10,0,161,1) 0%, rgba(0,35,255,1) 50%, rgba(14,1,162,1) 100%);
+}
+
+#weather_search{
+  color: black;
+}
+
+.btn{
+  color: black;
+}
+
+hr{
+  position: relative;
+  top: 308px;
+}
+
+.midline{
+  border-left: 1px solid white;
+  height: 55.5%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.box-right{
+  position: absolute;
+  display: inline;
+  right: 15%;
+  top: 2%;
+  font-size: 29px;
+  /* padding-bottom: 120px; */
+  font-family: 'Patrick Hand', cursive;
+}
+
+.temperature{
+  width: fit-content;
+  height: 0px;
+  position: relative;
+  left: 10%;
+  margin-right: 10%;
+  top: 200px;
+  font-size: 35px;
+  /* background-color: blue; */
+}
+
+.icon-div{
+  position: relative;
+  width: 0px;
+  height: 0px;
+  left: 16%;
+  top: 10px;
+  /* background-color: blue; */
+}
+
+.location-name{
+  position: relative;
+  width: fit-content;
+  width: -moz-fit-content;
+  height: 0px;
+  top: -75px;
+  left: 15%;
+  font-size: 40px;
+}
+
+.condition-div{
+  width: fit-content;
+  width: -moz-fit-content;
+  height: auto;
+  position: relative;
+  left: 25%;
+  top: 270px;
+  font-size: 36px;
+}

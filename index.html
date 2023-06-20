@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <script src="../javascript/weather.js"></script> -->
+    <link rel="stylesheet" href="../css/weather.css">
+    <link rel="stylesheet" href="../css/weather-daily.css">
+
+    <!-- importing fonts for css -->
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <title></title>
+  </head>
+  <body>
+    <input type="text"  id = "weather_search"  placeholder="Search your city">
+    or
+    <input type="button" value="find me" onclick="play()" class = "btn">
+    <div class="midline">
+    </div>
+    <div class="box-left">
+      <div class="condition-div">
+        <h2 id = "condition">--</h2>
+      </div>
+      <div class="icon-div">
+        <img id = "wicon" src = "http://openweathermap.org/img/wn/10d@2x.png" width="200" height="200"></h2>
+      </div>
+      <div class="temperature">
+        <h2 id="degree">--</h2>
+      </div>
+      <div class="location-name">
+        <h2 id = "LocationName">--</h2>
+      </div>
+    </div>
+    <div class="box-right">
+      <div class="feels-like">
+        <h2 class = "feels">--</h2>
+      </div>
+      <div class="humidity">
+        <h2 class = "humidity-percent"></h2>
+      </div>
+      <div class="aqi-div">
+        <h2 class = "aqi">-</h2>
+      </div>
+      <div class="aqi-div">
+        <h2 class="aqi-desc">-----</h2>
+      </div>
+      <div class="dew">
+        <h2 class = "dew_point">-</h2>
+      </div>
+      <div class="precip-div">
+        <h2 class = "precip">-</h2>
+      </div>
+    </div>
+      <hr>
+      <div class="daily-title">
+        <h2 class = "daily-weather">--</h2>
+      </div>
+    <div class="daily">
+      <div class="daily1-div">
+        <h2 class = "daily1date" id = "date">--</h2>
+        <img class = "daily1icon" src = "http://openweathermap.org/img/wn/10d@2x.png" width="90" height="90">
+        <h2 class = "daily1">--</h2>
+      </div>
+      <div class="daily2-div">
+        <h2 class = "daily2date" id = "date">--</h2>
+        <img class = "daily2icon" src = "http://openweathermap.org/img/wn/10d@2x.png" width="90" height="90">
+        <h2 class = "daily2">--</h2>
+      </div>
+      <div class="daily3-div">
+        <h2 class = "daily3date" id = "date">--</h2>
+        <img class = "daily3icon" src = "http://openweathermap.org/img/wn/10d@2x.png" width="90" height="90">
+        <h2 class = "daily3">--</h2>
+      </div>
+      <div class="daily4-div">
+        <h2 class = "daily4date" id = "date">--</h2>
+        <img class = "daily4icon" src = "http://openweathermap.org/img/wn/10d@2x.png" width="90" height="90">
+        <h2 class = "daily4">--</h2>
+      </div>
+      <div class="daily5-div">
+        <h2 class = "daily5date" id = "date">--</h2>
+        <img class = "daily5icon" src = "http://openweathermap.org/img/wn/10d@2x.png" width="90" height="90">
+        <h2 class = "daily5">--</h2>
+      </div>
+    </div>
+
+
+    <script src="../javascript/weather.js"></script>
+  </body>
+</html>

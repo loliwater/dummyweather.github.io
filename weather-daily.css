@@ -1,0 +1,27 @@
+.daily{
+  display: flex;
+  position: absolute;
+  left: 15%;
+  bottom: 15%;
+}
+.daily1-div, .daily2-div, .daily3-div, .daily4-div, .daily5-div{
+  padding-left: 15%;
+  font-size: 20px;
+}
+
+.daily-title{
+  height: max-content;
+  width: max-content;
+  position: absolute;
+  bottom: 37%;
+  left: 0px;
+}
+
+.daily-weather{
+  font-size: 40px;
+}
+
+#date{
+  width: max-content;
+  height: max-content;
+}
